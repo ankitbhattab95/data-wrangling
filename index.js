@@ -47,7 +47,8 @@ function getFilename(dom) {
     if (!dom.window.document.querySelector(".wikitable.sortable,.jquery-tablesorter")) {
         throw new Error(config.messages.unknownError)
     }
-    return dom.window.document.querySelector(".wikitable.sortable,.jquery-tablesorter").children[0].textContent.trim().replace(/ /g, "_") + ".csv";
+    let filename = dom.window.document.querySelector(".wikitable.sortable,.jquery-tablesorter").children[0].textContent.trim().replace(/ /g, "_") + ".csv";
+    return "./data/" + filename
 }
 
 function parseData(dom, filename) {
