@@ -31,4 +31,4 @@ To run this file use following command
 ```
 node index.js
 ```
-The above command would run the script and the resulting csv will be created inside `./data` dir (you can refer the csv uploaded in this repo inside data/ dir)
+The above command would run the script and the resulting csv will be created inside `./data` dir (you can refer the csv uploaded [here](https://github.com/ankitbhattab95/data-wrangling/blob/master/data/European_Union_Road_Safety_Facts_and_Figures.csv) in this repo)
