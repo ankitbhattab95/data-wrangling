@@ -1,0 +1,50 @@
+{
+    "name": "European Union Road Safety Facts and Figures",
+    "resources": [
+        {
+            "encoding": "utf-8",
+            "format": "csv",
+            "path": "data/European_Union_Road_Safety_Facts_and_Figures.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Area",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "opulation in 2018",
+                        "type": "number"
+                    },
+                    {
+                        "name": "GDP per capita in 2018",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Population density (inhabitants per km2) in 2017",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Vehicle ownership (per thousand inhabitants) in 2016",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Total Road Deaths in 2018",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Road deaths per Million Inhabitants",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Year",
+                        "type": "number"
+                    }
+                ]
+            }
+        }
+    ]
+}
