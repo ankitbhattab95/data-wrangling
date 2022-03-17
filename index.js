@@ -9,7 +9,7 @@ const wikiUrl = 'https://en.wikipedia.org/wiki/Road_safety_in_Europe'
 const config = {
     messages: {
         unknownError: "Something went wrong: Please check if the layout of wiki page has been modified",
-        successMessage: "CSV file successfully created :./"
+        successMessage: "CSV file successfully created :"
     },
     headingRow: 'Country,Area,Population in 2018,GDP per capita in 2018,Population density (inhabitants per km2) in 2017,Vehicle ownership (per thousand inhabitants) in 2016,Total Road Deaths in 2018,Road deaths per Million Inhabitants,Year'
 }
